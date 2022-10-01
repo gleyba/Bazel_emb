@@ -1,6 +1,6 @@
 workspace(name = "build")
 
-register_toolchains("//platforms/compiler:all")
+# register_toolchains("//platforms/compiler:all")
 
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
